@@ -1,0 +1,9 @@
+storePassword -> er12345
+keyPassword -> er12345
+first and last name -> ER
+Organizational Unit -> ASM Global LLP
+Organizational Name -> ASM Global LLP
+City -> Gurgaon
+State -> Haryana
+country code -> IN
+keyAlias -> er

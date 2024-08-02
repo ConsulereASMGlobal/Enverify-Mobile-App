@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "916194041511",
+    "project_id": "extended-resources",
+    "storage_bucket": "extended-resources.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916194041511:android:44714a3b3478b884800582",
+        "android_client_info": {
+          "package_name": "com.er.rider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzD3GB-xwkuX5rqex45TzDTRfGoitjjN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916194041511:android:f56c4c7d059bb25f800582",
+        "android_client_info": {
+          "package_name": "com.extended.resources"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzD3GB-xwkuX5rqex45TzDTRfGoitjjN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
