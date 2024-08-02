@@ -128,10 +128,10 @@ const App = () => {
       const url =
         Platform.OS === "ios"
           ? await VersionCheck.getAppStoreUrl({
-              appID: "com.extended.resources",
+              appID: "com.enverify",
             })
           : await VersionCheck.getPlayStoreUrl({
-              packageName: "com.extended.resources",
+              packageName: "com.enverify",
             });
 
       if (url) {

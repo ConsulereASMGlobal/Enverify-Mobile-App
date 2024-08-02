@@ -1,4 +1,4 @@
-package com.extended.resources;
+package com.enverify;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

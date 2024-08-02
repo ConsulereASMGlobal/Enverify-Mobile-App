@@ -475,7 +475,7 @@ export const pdfGenerator = async (
                             Website
                           </td>
                           <td style="padding-right: 10px">:</td>
-                          <td>www.extendedresources.network</td>
+                          <td>www.Enverify.com</td>
                         </tr>
                       </table>
                     </td>
@@ -530,22 +530,18 @@ export const pdfGenerator = async (
       const file = await RNHTMLtoPDF.convert(options);
       let filePath =
         ReactNativeBlobUtil.fs.dirs.LegacyDownloadDir +
-        `/Extended_Resources/Invoice_supply_${recieptData?.id}.pdf`;
+        `/Enverify/Invoice_supply_${recieptData?.id}.pdf`;
       let dirs = ReactNativeBlobUtil.fs.dirs;
       console.log(dirs.LegacyDownloadDir);
       ReactNativeBlobUtil.fs
         .writeFile(filePath, file.base64, "base64")
         .then((response) => {
-          Alert.alert(
-            "Success",
-            `Receipt saved to Downloads/Extended_Resources`,
-            [
-              {
-                text: "Ok",
-                onPress: () => navigation.navigate(routes.bottomTabs.home),
-              },
-            ]
-          );
+          Alert.alert("Success", `Receipt saved to Downloads/Enverify`, [
+            {
+              text: "Ok",
+              onPress: () => navigation.navigate(routes.bottomTabs.home),
+            },
+          ]);
         })
         .catch((errors) => {
           console.log(" Error Log: ", errors);

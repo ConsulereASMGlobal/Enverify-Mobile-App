@@ -38,9 +38,9 @@ const requestCameraPermision = async () => {
     const granted = await PermissionsAndroid.request(
       PermissionsAndroid.PERMISSIONS.CAMERA,
       {
-        title: "Extended Resources App Camera Permission",
+        title: "Enverify App Camera Permission",
         message:
-          "Extended Resources App needs access to your camera " +
+          "Enverify App needs access to your camera " +
           "so you can take awesome pictures.",
         buttonNeutral: "Ask Me Later",
         buttonNegative: "Cancel",

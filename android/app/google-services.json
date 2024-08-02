@@ -1,8 +1,8 @@
 {
   "project_info": {
     "project_number": "916194041511",
-    "project_id": "extended-resources",
-    "storage_bucket": "extended-resources.appspot.com"
+    "project_id": "enverify",
+    "storage_bucket": "enverify.appspot.com"
   },
   "client": [
     {
@@ -28,7 +28,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:916194041511:android:f56c4c7d059bb25f800582",
         "android_client_info": {
-          "package_name": "com.extended.resources"
+          "package_name": "com.enverify"
         }
       },
       "oauth_client": [],

@@ -7,17 +7,17 @@ import { navigationRef } from "../../navigation/navigationService";
 import { routes } from "../../navigation/routes";
 
 export const onDisplayNotification = async (remoteMessage: any) => {
-  console.log(remoteMessage, "messagre----------");
+  // console.log(remoteMessage, "messagre----------");
   await notifee.requestPermission();
   notifee.onBackgroundEvent(async (e) => {
-    console.log(e, "-----------");
+    // console.log(e, "-----------");
     navigationRef.navigate(routes.notificaion.list);
   });
 
   const remoteMessageResponse = remoteMessage?.notification;
   const channelId = await notifee.createChannel({
-    id: "com.extended.resources",
-    name: "com.extended.resources",
+    id: "com.enverify",
+    name: "com.enverify",
     importance: AndroidImportance.HIGH,
   });
   // Display a notification

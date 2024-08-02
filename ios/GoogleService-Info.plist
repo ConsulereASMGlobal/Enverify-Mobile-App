@@ -9,11 +9,11 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.extended.resources</string>
+	<string>com.enverify</string>
 	<key>PROJECT_ID</key>
-	<string>extended-resources</string>
+	<string>enverify</string>
 	<key>STORAGE_BUCKET</key>
-	<string>extended-resources.appspot.com</string>
+	<string>enverify.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
